@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/nmbackground"
+    tools:context=".SignUp">
+
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="371dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="30sp"
+        android:layout_marginRight="10sp"
+        android:layout_marginBottom="20sp"
+        android:autofillHints="emailAddress"
+        android:text="Enter Email Address"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="371dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_marginBottom="20sp"
+        android:ems="10"
+        android:autofillHints="password"
+        android:text="Enter Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editTextTextconfirmpassword"
+        android:layout_width="371dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_marginBottom="20sp"
+        android:autofillHints="password"
+        android:text="Confirm Password"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/Signup"
+        android:layout_width="184dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginRight="10sp"
+        android:layout_marginBottom="20sp"
+        android:text="sign up" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHighlight="@color/black"
+        android:textColor="@color/white"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:background="@color/black"
+        android:text="Already Signed Up? Login" />
+
+
+</LinearLayout>
